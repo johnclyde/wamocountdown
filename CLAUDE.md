@@ -61,3 +61,7 @@ Competitors press spacebar to buzz. Buzzing pauses the timer and records who buz
 ### Questions Format
 
 Questions are JSON arrays: `[{statement: string, timeMS: number}, ...]`. The `statement` field supports BBCode markup and LaTeX math (`$...$` and `$$...$$`). `timeMS: 0` means no countdown (used for title/answer slides).
+
+## Conventions
+
+- Do not add Claude or AI branding/attribution anywhere — not in commits, PRs, code comments, or generated content.
